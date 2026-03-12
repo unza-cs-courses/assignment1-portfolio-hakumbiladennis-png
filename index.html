@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Professional portfolio website for Dennis Hakumbila">
+    <title>Portfolio - Dennis Hakumbila</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,8 +33,10 @@
                  - Active state indication
             -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">DENNIS HAKUMBILA  2021373690</a>
             </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
             <ul class="nav__menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -55,10 +57,11 @@
                  - Consider using Flexbox for layout
             -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1>Dennis Hakumbila</h1>
                 <p class="hero__tagline">
                     <!-- TODO: Add your professional tagline -->
                     Web Developer | Designer | Problem Solver
+                    Aspring full-stack web developer who is passionate about building responsive,accessible,and user-friendly web applications.
                 </p>
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
             </div>
@@ -75,11 +78,11 @@
                  - Use CSS Grid or Flexbox for layout
             -->
             <div class="container">
-                <h2>About Me</h2>
+                <h2 class="about__h2">About Me</h2>
                 <div class="about__content">
                     <div class="about__image">
                         <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="images/dennis.jpg" alt="Profile photo of Dennis Hakumbila">
                     </div>
                     <div class="about__text">
                         <p>
@@ -90,9 +93,14 @@
                                  - Your goals
                                  - What makes you unique
                             -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
+                                 I am a passionate and dedicated web development student with a strong interest in creating modern,responsive and  user-friendly web applications. My academic journey in Computer Science has provided me with a good foundation in HTML5,CSS3 and problem solving.
+                                 I enjoy solving real-world problems through efficient code writing while  continuosly improving my technical abilities.
+                                 My interest in web development began when i discovered how powerful well-designed digital platforms can be used in improving user experiences and solving business challenges. Since then, I have worked on various academic and personal projects that emphasize responsive design, accessibility standards and structured layout principles.
+                                 
+                                 My goal is to become a skilled full-stack developer capable of building secure and scalable web systems. what sets me apart from others is my strong problem-solving mindset,attention to detail and commitment to contionous learning.
+                            <![Your professional bio goes here. Write at least 150 words about yourself,
                             your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            This is your opportunity to introduce yourself to potential employers or clients.] -->
                         </p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
@@ -101,6 +109,8 @@
                             <li>CSS3</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
+                            <li>Git & GitHub</li>
+                            <li>problem solving</li>
                             <!-- Add more skills -->
                         </ul>
                     </div>
@@ -118,17 +128,20 @@
                  - Use CSS Grid for card layout
             -->
             <div class="container">
-                <h2>My Projects</h2>
+                <h2 class="projects__h2">My Projects</h2>
                 <div class="projects__grid">
                     <!-- Project Card 1 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="images/project card 1.png" alt="Screenshot of Project 1">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Project Title 1 = Semantic HTML Website</h3>
                             <p>
                                 Brief description of your project. What technologies did you use?
                                 What problem does it solve?
+                                A structured website developed using HTML5 semantic elements such as header,section,article and footer.
+                                This project demonstrates proper document structure,accessibility features and correct heading hierarchy. 
+                                It focuses purely on clean and meaningful markup.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -140,12 +153,14 @@
                     <!-- Project Card 2 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="images/project card 2.png" alt="Screenshot of Project 2">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Project Title 2 = Responsive css layout</h3>
                             <p>
                                 Brief description of your project. What technologies did you use?
                                 What problem does it solve?
+                                A responsive web layout styled entirely with CSS3.
+                                This project demonstrates the use of Flexbox,CSS Grid and media queries to ensure the website adapts smoothly to desktop screens. The focus is on design,spacing and visual presentation.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -157,12 +172,14 @@
                     <!-- Project Card 3 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="images/project card 3.png" alt="Screenshot of Project 3">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Project Title 3= Interactive JavaScript Web App</h3>
                             <p>
                                 Brief description of your project. What technologies did you use?
                                 What problem does it solve?
+                                A web application that includes Javascript to improve user interaction and responsiveness. This project uses DOM manipulation and event handling to create dynamic features such as interactive buttons and form validation.
+                                It demonstrates the behaviour layer of modern web development.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -190,7 +207,7 @@
                  - Use HTML5 validation attributes
             -->
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2 class="contact__h2">Contact Me</h2>
                 <form class="contact__form" action="#" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -248,7 +265,7 @@
              - Back to top link (optional)
         -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2025 Dennis Hakumbila. All rights reserved.</p>
             <nav class="footer__social">
                 <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
